@@ -1,1 +1,7 @@
-
+simpleblue:
+	image: kunal325/simpleblue:latest
+	container_name: 
+	ports:
+		- 80:80
+		- 443:443
+	restart: always
